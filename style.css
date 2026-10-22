@@ -1,0 +1,30 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* Encabezado y Sección Principal */
+.header, .hero{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 80 px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem24px;
+    font-weight: bold;  
+}
+
+.nav-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 18px;    
+}
