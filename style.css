@@ -1,11 +1,10 @@
 /* Importar tipografia Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700;1,300 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400,700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* --- 1. HEADER Y HERO --- */
@@ -58,13 +57,10 @@
 }
 
 .hero-image {
-    flex: 1;
-    background-color: #6D747D;
-    height: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #E5E7EB;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .btn {
